@@ -165,7 +165,9 @@ ul {
 .section-title .accent {
   color: var(--color-brand-dark);
 }
-
+.traditions-container{
+    display: flex;
+}
 .traditions-text .brand {
   color: var(--color-brand-light);
   font-weight: 600;
