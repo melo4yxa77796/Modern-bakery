@@ -129,6 +129,9 @@ ul {
 }
 .hero-section{
     padding: 272px 0;
+    background-image: url(../images/bacgroundcolor.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 .hero-title {
     margin-bottom: 0;
