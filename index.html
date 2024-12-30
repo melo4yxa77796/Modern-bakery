@@ -72,33 +72,45 @@
           <h2 class="chefs-title section-title centered">
             Our best <span class="accent">chefs</span>
           </h2>
-          <ul>
-            <li>
-              <article>
+          <ul class="chefs-list">
+            <li class="chefs-item">
+              <article class="chef-card">
                 <img
                   class="chef-img"
                   src="./images/nastya.jpg"
                   alt="Jane-chef"
                 />
-                <h3 class="chef-title">Jane Doe</h3>
-                <p>Hello, I'm Jane!</p>
-                <p>
-                  For 10 years, I've been lighting interesting and tasty ideas
-                  in life.
-                </p>
-                <p>I will bake for you the most delicious products!</p>
+                <div>
+                  <h3 class="chef-title">Jane Doe</h3>
+                  <div class="chef-text">
+                    <p >Hello, I'm Jane!</p>
+                    <p >
+                      For 10 years, I've been lighting interesting and tasty
+                      ideas in life.
+                    </p>
+                    <p >
+                      I will bake for you the most<br />
+                      delicious products!
+                    </p>
+                  </div>
+                </div>
               </article>
             </li>
-            <li>
-              <article>
+            <li class="chefs-item">
+              <article class="chef-card">
                 <img class="chef-img" src="./images/maks.jpg" alt="John-chef" />
-                <h3 class="chef-title">John Doe</h3>
-                <p>Hello, I'm John!</p>
-                <p>
-                  I have 18 years of coding experience.SHOP BAKERY is our love,
-                  which we share with you every time through our pastries!
-                </p>
-                <p>I will make a unique filling for you for any taste!</p>
+                <div>
+                  <h3 class="chef-title">John Doe</h3>
+                  <div class="chef-text">
+                    <p>Hello, I'm John!</p>
+                    <p>
+                      I have 18 years of coding experience.SHOP BAKERY is our
+                      love, which we share with you every time through our
+                      pastries!
+                    </p>
+                    <p>I will make a unique filling for you for any taste!</p>
+                  </div>
+                </div>
               </article>
             </li>
           </ul>
@@ -108,128 +120,143 @@
       <section class="section">
         <div class="container">
           <h2 class="formats-title section-title centered">Formats</h2>
-          <button class="formats-button" type="button">
-            <svg  width="16" height="16">
-                <use href="./images/icons.svg#icon-Arrow-1">
-              
-                </use>
+          <div class="formats-container">
+            <button class="formats-button" type="button">
+              <svg width="16" height="16">
+                <use href="./images/icons.svg#icon-Arrow-1"></use>
               </svg>
-          </button>
-          <ul class="formats-list">
-            <li class="formats-iteam">
-              <article class="format-card">
-                <h3 class="format-title">Walrus</h3>
-                <div class="format-text">
-                  <p>Area: up to 120 m2</p>
-                  <p>Menu: extended menu</p>
-                  <p>
-                    Staff: 2 cashiers, 2 bakers, 2 baker's assistants, 2
-                    waiters-handymen
-                  </p>
-                  <p>Seats: available</p>
-                </div>
-              </article>
-            </li>
-            <li class="formats-iteam">
-              <article class="format-card">
-                <h3 class="format-title">Horseshoe</h3>
-                <div class="format-text">
-                  <p>Area: up to 25 m2</p>
-                  <p>Menu: the most popular menu items</p>
-                  <p>Staff: 2 cashiers, 2 bakers, 1 baker's assistant</p>
-                  <p>Seats: none</p>
-                </div>
-              </article>
-            </li>
-            <li class="formats-iteam">
-              <article class="format-card">
-                <h3 class="format-title">Handlebar</h3>
-                <div class="format-text">
-                  <p>Area: up to 15 m2</p>
-                  <p>Menu: the most popular menu items</p>
-                  <p>Staff: 1 seller, 1 baker, 1 baker's assistant</p>
-                  <p>Seats: none</p>
-                </div>
-              </article>
-            </li>
-          </ul>
-           <button class="formats-button" type="button">
-            <svg  width="16" height="16">
-                <use href="./images/icons.svg#icon-Arrow-1-2">
-              
-                </use>
+            </button>
+            <ul class="formats-list">
+              <li class="formats-iteam">
+                <article class="format-card">
+                  <h3 class="format-title">Walrus</h3>
+                  <div class="format-text">
+                    <p>Area: up to 120 m2</p>
+                    <p>Menu: extended menu</p>
+                    <p>
+                      Staff: 2 cashiers, 2 bakers, 2 baker's assistants, 2
+                      waiters-handymen
+                    </p>
+                    <p>Seats: available</p>
+                  </div>
+                </article>
+              </li>
+              <li class="formats-iteam">
+                <article class="format-card">
+                  <
+                  <h3 class="format-title">Horseshoe</h3>
+                  <div class="format-text">
+                    <p>Area: up to 25 m2</p>
+                    <p>Menu: the most popular menu items</p>
+                    <p>Staff: 2 cashiers, 2 bakers, 1 baker's assistant</p>
+                    <p>Seats: none</p>
+                  </div>
+                </article>
+              </li>
+              <li class="formats-iteam">
+                <article class="format-card">
+                  <h3 class="format-title">Handlebar</h3>
+                  <div class="format-text">
+                    <p>Area: up to 15 m2</p>
+                    <p>Menu: the most popular menu items</p>
+                    <p>Staff: 1 seller, 1 baker, 1 baker's assistant</p>
+                    <p>Seats: none</p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+            <button class="formats-button" type="button">
+              <svg width="16" height="16">
+                <use href="./images/icons.svg#icon-Arrow-1-2"></use>
               </svg>
-          </button>
+            </button>
+          </div>
         </div>
       </section>
 
-      <section class="section">
+      <section class="contact-section section">
         <div class="container">
-          <h2 class="contact-title section-title">
-            Join a network of bakeries
-          </h2>
-          <p>Fill out the form so we can contact you!</p>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17960.954430941154!2d12.50657785!3d55.7564297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46524e0794134b6f%3A0xda2860fdfe3b6855!2sIKEA!5e0!3m2!1sru!2sdk!4v1735057726373!5m2!1sru!2sdk"
-            width="603"
-            height="595"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          >
-          </iframe>
+          <div class="contact-container">
+            <div class="contact-format">
+              <h2 class="contact-title section-title">
+                Join a network of bakeries
+              </h2>
+              <p>Fill out the form so we can contact you!</p>
+            </div>
+            <iframe
+              class="contact-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17960.954430941154!2d12.50657785!3d55.7564297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46524e0794134b6f%3A0xda2860fdfe3b6855!2sIKEA!5e0!3m2!1sru!2sdk!4v1735057726373!5m2!1sru!2sdk"
+              width="603"
+              height="595"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
         </div>
       </section>
     </main>
 
     <footer>
       <div class="container">
-        <nav>
-          <a></a>
-          <ul>
-            <li><a class="link" href="#">Our traditions</a></li>
-            <li><a class="link" href="#chefs">Chefs</a></li>
-            <li><a class="link" href="#format">Formats</a></li>
-            <li><a class="link" href="#contacts">Contacts</a></li>
-          </ul>
-        </nav>
-        <address id="contacts">
-          <ul>
-            <li>
-              <a class="address-link" href="tel:+380501234567">+380501234567</a>
-            </li>
-            <li>
-              <a class="address-link" href="mailto:R8oCt@example.com"
-                >R8oCt@example.com</a
-              >
-            </li>
-            <li>
-              <a
-                class="address-link"
-                href="https://maps.app.goo.gl/Z7dXNuHuUwMmX1pZA"
-                target="_blank"
-                >Denmark street, 123</a
-              >
-            </li>
-            <li>
-              <a href="#" target="_blank">
-                <svg class="social-icon" width="32" height="32" >
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#" target="_blank">
-                <svg class="social-icon" width="32" height="32">
-                <use href="./images/icons.svg#icon-facebook">
-              
-                </use>
-              </svg>
-            </a>
-            </li>
-          </ul>
-        </address>
+        <div class="footer-container">
+          <nav class="footer-nav">
+            <div class="footer-logo">
+              <a href="/"
+                ><img src="./images/logo.svg" alt="logo modern-bakery"
+              /></a>
+            </div>
+
+            <ul class="footer-menue">
+              <li><a class="link" href="#">Our traditions</a></li>
+              <li><a class="link" href="#chefs">Chefs</a></li>
+              <li><a class="link" href="#format">Formats</a></li>
+              <li><a class="link" href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="footer-address" id="contacts">
+            <ul class="address-list">
+              <li>
+                <a class="address-link" href="tel:+380501234567"
+                  >+380501234567</a
+                >
+              </li>
+              <li>
+                <a class="address-link" href="mailto:R8oCt@example.com"
+                  >R8oCt@example.com</a
+                >
+              </li>
+              <li>
+                <a
+                  class="address-link"
+                  href="https://maps.app.goo.gl/Z7dXNuHuUwMmX1pZA"
+                  target="_blank"
+                  >Denmark street, 123</a
+                >
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  <svg class="social-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  <svg class="social-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <div class="adress-info">
+                <li></li>
+                <li></li>
+              </div>
+            </ul>
+          </address>
+        </div>
       </div>
     </footer>
   </body>
