@@ -259,11 +259,50 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden">
+    <div class="backdrop ">
       <div class="modal">
-        <button class="close-button" type="button">
+        <button class="modal-btn-close" type="button">
           Close
         </button>
+        <h2 class="order-title ">Order a call</h2>
+        <p>Fill out the form so we can contact you!</p>
+        <form name="contact-form" class"form-field" autocomplete="off" novalidate>
+          <div class="form-field">
+          
+          <input
+          id="user-name"
+            class="order-input"
+            type="text"
+            name="user-name"
+  
+          />
+          <label class="order-label" for="user-name">Name</label>
+        </div>
+          <div class="form-field">
+         
+          <input
+          id="user-tel"
+            class="order-input"
+            type="tel"
+            name="user-tel"
+           
+          />
+           <label class="order-label" for="user-tel">Phone number</label>
+        </div>
+          <div class="form-field"> 
+         
+          <input
+          id="user-email"
+            class="order-input"
+            type="email"
+            name="user-email"
+            
+          />
+           <label class="order-label" for="user-email">email</label>
+
+          </div>
+          <button class="order-button" type="submit">Submit</button>
+          <p>To press the button you need to fill in all fields.</p>
       </div>
     </div>
     <script src="./js/modal.js"></script>
