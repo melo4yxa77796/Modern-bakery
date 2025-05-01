@@ -452,10 +452,22 @@ order-input:focus{
  
 transition:transform 0.3s;
 }
-.order-input:focus+ .order-label{
+.form-field:focus-within .order-label{
   transform:translate(-36px,-40px)
 }
 .form-field{
   margin: 32px;
   position: relative;
+}
+.form-button{
+  margin:0 auto 24px;
+  display: block;
+}
+.form-terms{
+  margin: 0 auto;
+  max-width: 210px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
 }

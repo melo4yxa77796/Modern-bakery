@@ -182,7 +182,46 @@
                 Join a network of bakeries
               </h2>
               <p>Fill out the form so we can contact you!</p>
+             <form name="modal-form" class"form-field" autocomplete="on" novalidate>
+          <div class="form-field">
+          
+          <input
+          id="user-name"
+            class="order-input"
+            type="text"
+            name="user-name"
+  
+          />
+          <label class="order-label" for="user-name">Name</label>
+        </div>
+          <div class="form-field">
+         
+          <input
+          id="user-tel"
+            class="order-input"
+            type="tel"
+            name="user-tel"
+           
+          />
+           <label class="order-label" for="user-tel">Phone number</label>
+        </div>
+          <div class="form-field"> 
+         
+          <input
+          id="user-email"
+            class="order-input"
+            type="email"
+            name="user-email"
+            
+          />
+           <label class="order-label" for="user-email">email</label>
+
+          </div>
+          <button class="form-button order-button" type="submit">Submit</button>
+          <p class="form-terms">To press the button you need to fill in all fields.</p>
             </div>
+        
+        
             <iframe
               class="contact-map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17960.954430941154!2d12.50657785!3d55.7564297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46524e0794134b6f%3A0xda2860fdfe3b6855!2sIKEA!5e0!3m2!1sru!2sdk!4v1735057726373!5m2!1sru!2sdk"
@@ -266,7 +305,7 @@
         </button>
         <h2 class="order-title ">Order a call</h2>
         <p>Fill out the form so we can contact you!</p>
-        <form name="contact-form" class"form-field" autocomplete="off" novalidate>
+        <form name="modal-form" class"form-field" autocomplete="on" novalidate>
           <div class="form-field">
           
           <input
@@ -301,8 +340,8 @@
            <label class="order-label" for="user-email">email</label>
 
           </div>
-          <button class="order-button" type="submit">Submit</button>
-          <p>To press the button you need to fill in all fields.</p>
+          <button class="form-button order-button" type="submit">Submit</button>
+          <p class="form-terms">To press the button you need to fill in all fields.</p>
       </div>
     </div>
     <script src="./js/modal.js"></script>
