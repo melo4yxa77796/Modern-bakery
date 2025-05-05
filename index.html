@@ -83,12 +83,12 @@
                 <div>
                   <h3 class="chef-title">Jane Doe</h3>
                   <div class="chef-text">
-                    <p >Hello, I'm Jane!</p>
-                    <p >
+                    <p>Hello, I'm Jane!</p>
+                    <p>
                       For 10 years, I've been lighting interesting and tasty
                       ideas in life.
                     </p>
-                    <p >
+                    <p>
                       I will bake for you the most<br />
                       delicious products!
                     </p>
@@ -182,46 +182,58 @@
                 Join a network of bakeries
               </h2>
               <p>Fill out the form so we can contact you!</p>
-             <form name="modal-form" class"form-field" autocomplete="on" novalidate>
-          <div class="form-field">
-          
-          <input
-          id="user-name"
-            class="order-input"
-            type="text"
-            name="user-name"
-  
-          />
-          <label class="order-label" for="user-name">Name</label>
-        </div>
-          <div class="form-field">
-         
-          <input
-          id="user-tel"
-            class="order-input"
-            type="tel"
-            name="user-tel"
-           
-          />
-           <label class="order-label" for="user-tel">Phone number</label>
-        </div>
-          <div class="form-field"> 
-         
-          <input
-          id="user-email"
-            class="order-input"
-            type="email"
-            name="user-email"
-            
-          />
-           <label class="order-label" for="user-email">email</label>
+              <form name="modal-form" autocomplete="on">
+                <div class="form-field">
+                  <label class="form-label visually-hidden" for="user-name"
+                    >Enter your name</label
+                  >
+                  <input
+                    id="user-name"
+                    class="form-input"
+                    type="text"
+                    name="user-name"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
 
-          </div>
-          <button class="form-button order-button" type="submit">Submit</button>
-          <p class="form-terms">To press the button you need to fill in all fields.</p>
+                <div class="form-field">
+                  <label class="form-label visually-hidden" for="user-tel"
+                    >Enter your phone number</label
+                  >
+                  <input
+                    id="user-tel"
+                    class="form-input"
+                    type="tel"
+                    name="user-tel"
+                    placeholder="Enter your phone number"
+                    required
+                  />
+                </div>
+
+                <div class="form-field">
+                  <label class="form-label visually-hidden" for="user-email"
+                    >Enter your email</label
+                  >
+                  <input
+                    id="user-email"
+                    class="form-input"
+                    type="email"
+                    name="user-email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+
+                <button class="form-button order-button" type="submit">
+                  Submit
+                </button>
+                <p class="form-terms">
+                  To press the button you need to fill in all fields.
+                </p>
+              </form>
             </div>
-        
-        
+
             <iframe
               class="contact-map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17960.954430941154!2d12.50657785!3d55.7564297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46524e0794134b6f%3A0xda2860fdfe3b6855!2sIKEA!5e0!3m2!1sru!2sdk!4v1735057726373!5m2!1sru!2sdk"
@@ -298,50 +310,63 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop ">
+    <div class="backdrop">
       <div class="modal">
-        <button class="modal-btn-close" type="button">
-          Close
-        </button>
-        <h2 class="order-title ">Order a call</h2>
+        <button class="modal-btn-close" type="button">Close</button>
+        <h2 class="order-title">Order a call</h2>
         <p>Fill out the form so we can contact you!</p>
-        <form name="modal-form" class"form-field" autocomplete="on" novalidate>
+        <form name="modal-form" autocomplete="on">
           <div class="form-field">
-          
-          <input
-          id="user-name"
-            class="order-input"
-            type="text"
-            name="user-name"
-  
-          />
-          <label class="order-label" for="user-name">Name</label>
-        </div>
-          <div class="form-field">
-         
-          <input
-          id="user-tel"
-            class="order-input"
-            type="tel"
-            name="user-tel"
-           
-          />
-           <label class="order-label" for="user-tel">Phone number</label>
-        </div>
-          <div class="form-field"> 
-         
-          <input
-          id="user-email"
-            class="order-input"
-            type="email"
-            name="user-email"
-            
-          />
-           <label class="order-label" for="user-email">email</label>
-
+            <label class="form-label visually-hidden" for="user-name"
+              >Enter your name</label
+            >
+            <input
+              id="user-name"
+              class="form-input"
+              type="text"
+              name="user-name"
+              placeholder="Enter your name"
+              minlength="2"
+              maxlength="20"
+              required
+            />
           </div>
+
+          <div class="form-field">
+            <label class="form-label visually-hidden" for="user-tel"
+              >Enter your phone number</label
+            >
+            <input
+              id="user-tel"
+              class="form-input"
+              type="tel"
+              name="user-tel"
+              placeholder="Enter your phone number"
+              pattern="^\+45\d{8}$"
+
+              required
+            />
+          </div>
+
+          <div class="form-field">
+            <label class="form-label visually-hidden" for="user-email"
+              >Enter your email</label
+            >
+            <input
+              id="user-email"
+              class="form-input"
+              type="email"
+              name="user-email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+
           <button class="form-button order-button" type="submit">Submit</button>
-          <p class="form-terms">To press the button you need to fill in all fields.</p>
+          <p class="form-terms">
+            To press the button you need to fill in all fields.
+          </p>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
